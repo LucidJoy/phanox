@@ -278,8 +278,6 @@ span.text-red {
   float: right;
   padding: 40px 10px;
   position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-container {
@@ -376,13 +374,20 @@ span.text-red {
   border: none;
 }
 .cart-bottom {
-  bottom: 12px;
-  right: 5px;
-  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  /* right: 5px;
+  left: 30px; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
   padding: 30px 65px;
   background: rgba(240, 45, 52, 0.3);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   /* border: 2px solid rgba(240, 45, 52, 0.6); */
